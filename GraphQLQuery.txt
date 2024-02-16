@@ -1,0 +1,26 @@
+# mutation AddBook {
+#   addBook(title: "John Doe", author: "Michael P") {
+#     title
+#     author
+#   }
+# }
+
+# query QueryBooks {
+#   books {
+#     author
+#     title
+#   }
+# }
+
+# mutation EditBook($title: String!) {
+#   editBook(title: $title) {
+#     title
+#   }
+# }
+
+# mutation DeleteBook($title: String!) {
+#   deleteBook(title: $title) {
+#     title
+#     author
+#   }
+# }
